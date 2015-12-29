@@ -1,0 +1,34 @@
+body {
+	background-color: #f2f4f9;
+	margin: 0;
+	padding: 0;
+	font-family: "Arvo";
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+#content {
+	margin-top: 100px;	
+	width: 100%;
+	text-align: center;
+}
+
+#image {
+	display: inline; 
+	width: 684px;
+	position: relative;	
+}
+
+#rotate {
+	display: inline; 
+	position: absolute;
+	top: -270px;
+	left: -135px;
+    animation: swing 3s infinite ease-in-out;
+    transform-origin: right top;
+}
+
+@keyframes swing {
+    0%,	100% {transform: rotate(15deg);}
+	50% {transform: rotate(-5deg);}	
+}

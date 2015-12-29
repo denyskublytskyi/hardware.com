@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#dropzone {
+    transition: all 0.3s ease;
+    font-size: 20px;
+    display: inline-block;
+    border: dashed 2px #111;
+    color: #111;
+    padding: 55px;
+    text-align: center;
+}
+
+#dropzone.dragover {
+    transition: all 0.3s ease;
+    color: #ccc;
+    border-color: #ccc;
+}
