@@ -2,18 +2,10 @@
 <html>
     <head>
         <title>Feedback list</title>
-        <link href='http://<? echo $_SERVER['SERVER_NAME']; ?>/templates/css/fonts.css' rel='stylesheet' type='text/css'>
-        <link href='http://<? echo $_SERVER['SERVER_NAME']; ?>/templates/css/messages_style.css' rel='stylesheet'
-              type='text/css'>
-        <link rel='stylesheet'
-              href='http://<? echo $_SERVER['SERVER_NAME']; ?>/templates/css/font-awesome-4.4.0/css/font-awesome.min.css'>
-        <script src='http://<? echo $_SERVER['SERVER_NAME']; ?>/templates/js/jquery-2.1.4.min.js'></script>
-        <script src='http://<? echo $_SERVER['SERVER_NAME']; ?>/templates/js/feedback_list.js'></script>
-        <script>
-            setTimeout(function () {
-                $('#notice').fadeOut('slow')
-            }, 2000);
-        </script>
+        <link href='/templates/css/fonts.css' rel='stylesheet' type='text/css'>
+        <link href='/templates/css/messages_style.css' rel='stylesheet' type='text/css'>
+        <link rel='stylesheet' href='/templates/css/font-awesome-4.4.0/css/font-awesome.min.css'>
+        <script src='/templates/js/jquery-2.1.4.js'></script>
     </head>
 
     <body>

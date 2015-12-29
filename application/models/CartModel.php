@@ -60,7 +60,7 @@ class CartModel
         {
             $cart = $_SESSION['cart'];
 
-            $pdo = DB::connect();
+            $pdo = Db::connect();
             $cartList = array();
 
             foreach ($cart as $id => $count)
