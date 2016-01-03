@@ -9,7 +9,7 @@
             <li class="search-item">
                 <a href='/product/<? echo $product['id']; ?>'>
                     <div class='list-item-image'>
-                        <img src='<? echo '/templates/images/' . $product['image'] ?>'>
+                        <img src='<? echo '/templates/images/' . $product['image']; ?>' alt="">
                     </div>
                     <div class="search-item-info">
                         <div>

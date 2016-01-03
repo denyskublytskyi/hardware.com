@@ -2,12 +2,13 @@
 
 class UserModel
 {
-    public static function registration($login, $password, $passwordConfirm, $email)
+    public static function registration($login, $password, $passwordConfirm, $email, $recaptcha)
     {
         $login = self::clear($login);
         $error = array(
             'login' => self::isLoginExist($login) ? 'Пользователь с таким логином уже существует.' : 'OK',
-            'email' => self::isEmailExist($email) ? 'Пользователь с таким email уже существует.' : 'OK'
+            'email' => self::isEmailExist($email) ? 'Пользователь с таким email уже существует.' : 'OK',
+            'recaptcha' => empty($recaptcha) ? 'Подтвердите что вы не робот' : 'OK'
         );
         $error['login'] = self::checkName($login);
         $error['email'] = self::checkEmail($email);

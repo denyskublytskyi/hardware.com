@@ -5,7 +5,7 @@ class UserController
     public static function actionRegistration()
     {
         extract($_POST);
-        UserModel::registration($login, $password, $passwordConfirm, $email);
+        UserModel::registration($login, $password, $passwordConfirm, $email, $_POST['g-recaptcha-response']);
     }
 
     public static function actionLogin()

@@ -39,6 +39,8 @@ $(document).ready(function() {
 
         var form = $(this);
         var inputs = $(this).children(':input:not(:button)');
+        inputs.push($(this).children('.g-recaptcha'));
+        console.log(inputs);
 
         var handler;
         switch($(this).attr('id'))
@@ -65,12 +67,12 @@ $(document).ready(function() {
 
                     if (curAnswer == 'OK' || !curAnswer)
                     {
-                        if (next.is("div"))
+                        if (next.attr('class') == 'validation-error')
                             next.remove();
                     }
                     else
                     {
-                        if (next.is("div"))
+                        if (next.attr('class') == 'validation-error')
                             $(this).next().remove();
                         $(this).after("<div class = 'validation-error'>" + curAnswer + "</div>");
                     }

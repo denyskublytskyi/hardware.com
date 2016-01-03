@@ -17,7 +17,7 @@
                 <i class='fa fa-times'></i>
             </a>
             <div class='cart-item-image'>
-                <img src='<? echo '/templates/images/' . $cartItem['image'] ?>'>
+                <img src='<? echo '/templates/images/' . $cartItem['image'] ?>' alt=''>
             </div>
             <div class="cart-item-info">
                 <div>

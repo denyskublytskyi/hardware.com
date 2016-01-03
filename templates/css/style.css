@@ -141,8 +141,8 @@ address {
 #menu {
 	box-sizing: border-box;
 	width: 250px;
-	padding: 0px 15px 0px 30px;
-	margin: 0px;
+	padding: 0 15px 0 30px;
+	margin: 0;
 }
 
 nav {
@@ -593,6 +593,13 @@ nav ul li a:hover {
 
 .form {
 	text-align: center;
+}
+
+.g-recaptcha {
+	padding: 5px 5px 0 5px;
+	margin-top: 50px;
+	transform: scale(0.805);
+	transform-origin: 0 0;
 }
 
 #login-form, #registration-form {

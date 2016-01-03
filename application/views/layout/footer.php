@@ -1,6 +1,6 @@
     <footer>
         <address>
-            &copy 2015 HardWare онлайн магазин.  Все права защищены
+            &copy; 2015 HardWare онлайн магазин.  Все права защищены
         </address>
         <ul id='social-network'>
             <li>

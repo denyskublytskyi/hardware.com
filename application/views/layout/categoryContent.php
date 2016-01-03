@@ -7,7 +7,7 @@
             <div class='product'>
                 <a href='/product/<? echo $product['id']; ?>'>
                     <div class='product-image'>
-                        <img src='<? echo '/templates/images/' . $product['image']; ?>'>
+                        <img src='<? echo '/templates/images/' . $product['image']; ?>' alt="">
                     </div>
                 </a>
                 <div class='product-shop'>

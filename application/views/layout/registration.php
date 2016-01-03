@@ -9,6 +9,7 @@
     <input type='text' name='email' placeholder='Email'>
     <input type='password' name='password' placeholder='Пароль'>
     <input type='password' name='passwordConfirm' placeholder='Подтвердите пароль'>
+    <div class="g-recaptcha" data-sitekey="6LdDXhQTAAAAAIgd227AAPxsGlk2MkTLjEXJoBVJ" name="recaptcha"></div>
     <button type='submit'>
         Зарегистрироваться
     </button>

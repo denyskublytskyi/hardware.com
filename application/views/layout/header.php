@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <title>HardWare итернет-магазин</title>
     <link href='/templates/css/fonts.css' rel='stylesheet'>
-    <link href='/templates/images/favicon.png' rel='icon' type='image/png' size='32x32'>
+    <link href='/templates/images/favicon.png' rel='icon' type='image/png'>
     <link href='/templates/css/style.css' rel='stylesheet'>
     <link href='/templates/css/font-awesome-4.4.0/css/font-awesome.min.css' rel='stylesheet' >
     <script src='/templates/js/jquery-2.1.4.js'></script>
@@ -14,6 +14,7 @@
     <script src='/templates/js/menu.js'></script>
     <script src='/templates/js/cart.js'></script>
     <script src='/templates/js/search.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -52,7 +53,7 @@
         <div id='header-content'>
             <div id='logo'>
                 <a href = "/">
-                    <img src='/templates/images/logo.png'>
+                    <img src='/templates/images/logo.png' alt="">
                 </a>
             </div>
             <div id="search">
